@@ -25,10 +25,10 @@ body {
 	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-standing-still.png');
 }
 .ryu-throwing {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images.ryu-throwing-hadouken.png');
+	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-throwing-hadouken.png');
 }
 .ryu-cool {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images.ryu-cool.gif');
+	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-cool.gif');
 }
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
