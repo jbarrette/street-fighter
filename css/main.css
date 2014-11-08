@@ -1,45 +1,70 @@
 body {
-	background-color: black;
+	background-color: black;	
 }
 .main {
 	background-color: white;
 	margin-top: 110px;
 	padding-left: 100px;
 	min-width: 1200px;
-	height: 500px;
+	height: 500px;	
 }
+
+.ryu {
+	float: left;	
+}
+
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
-	height: 494px;
+	height: 494px;	
 }
-.ryu-ready, .ryu-throwing {
-	display: none;
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+	display: none;	
 }
-.ryu {
-	float: left;
-}
+
 .ryu-ready {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-ready-position.gif');
+	background-image: url('../images/ryu-ready-position.gif');	
 }
+
 .ryu-still {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-standing-still.png');
+	background-image: url('../images/ryu-standing-still.png');	
 }
+
 .ryu-throwing {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-throwing-hadouken.png');
+	background-image: url('../images/ryu-throwing-hadouken.png');	
 }
+
 .ryu-cool {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/ryu-cool.gif');
+	background-image: url('../images/ryu-cool.gif');	
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
+
 .hadouken {
-	background-image: url('http://www.mattshull.com/thinkful-projects/street/images/hadouken.gif');
+	background-image: url('../images/hadouken.gif');
 	width: 156px;
 	height: 90px;
 	display: none;
 	position: relative;
-	top: 167px;
-	left: -212px;
-	float: left;
+	top: 170px;
+	left: -190px;
+	float: left;	
+	z-index: 1;
+}
+
+#instructions {
+	position: absolute;
+	display: none;
+	width: 360px;
+	height: 130px;
+	top: 200px;
+	left: 740px;
+	float: left;	
+}
+
+#instructions p {
+	font-size: 2em;
+	text-align: center;	
 }
