@@ -25,12 +25,12 @@ $('.ryu').mouseenter(function() {
     $('.ryu-ready').show();
   })
   .keydown(function(x) {  
-    //if x key ()
+    if x key ()
     $('.ryu-ready').hide();
     $('.ryu-cool').show();
   })
   .keyup(function(x) {
-    //if x key ()
+    if x key ()
     $('.ryu-cool').hide();
     $('.ryu-ready').show();
   });
